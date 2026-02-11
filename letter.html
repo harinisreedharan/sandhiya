@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Letter 💖</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="letter-page">
+
+  <div class="envelope" onclick="openLetter()">
+    💌 Tap to Open
+  </div>
+
+  <div class="letter hidden" id="letter">
+    <h2>Dear Sandhiya,</h2>
+
+    <p>
+      This letter is for you, to remind you how special and valuable you are.
+    </p>
+
+    <p>
+      Never forget your worth. You mean more than words can say.
+    </p>
+
+    <p>
+      I will always be there for you, no matter what.
+    </p>
+
+    <p class="sign">
+      Yours lovingly,<br>
+      💖
+    </p>
+  </div>
+
+  <script>
+    function openLetter() {
+      document.getElementById("letter").classList.remove("hidden");
+    }
+  </script>
+
+</body>
+</html>
